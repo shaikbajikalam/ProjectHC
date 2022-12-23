@@ -6,6 +6,68 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  background-image: url(https://media.istockphoto.com/id/694329856/photo/blue-pottery-works-in-okinawa.jpg?b=1&s=170667a&w=0&k=20&c=wyjkQV0ZA7SiR2XQuFSSOhba2e5an2BKKnD7iX0gBAI=);
+  background-repeat: no-repeat;
+  background-size: 100% 240%;
+}
+.Register{
+  text-align: center;
+  margin: 10% 10% 10% 10%;
+}
+.email{
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+.name{
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+.username{
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+.password{
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+.but{
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 22px;
+}
+.but:hover{
+  background-color: black;
+  color: white;
+}
+.Login{
+  text-align: center;
+  margin-top: 10%;
+}
+.Navbar{
+  background-color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+.Navbar a{
+  text-decoration: none;
+  font-style: bold;
+  font-size: 25px;
+  color: black;
+  padding: 0% 22% 0% 25%;
+}
+.hpage{ 
+}
+.ppage{
+ }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
