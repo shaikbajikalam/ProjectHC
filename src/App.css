@@ -7,13 +7,23 @@
   pointer-events: none;
 }
 body{
-  background-image: url(https://media.istockphoto.com/id/694329856/photo/blue-pottery-works-in-okinawa.jpg?b=1&s=170667a&w=0&k=20&c=wyjkQV0ZA7SiR2XQuFSSOhba2e5an2BKKnD7iX0gBAI=);
+  background-image: url(https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg?w=2000);
   background-repeat: no-repeat;
   background-size: 100% 240%;
 }
 .Register{
+  background-color: white;
   text-align: center;
-  margin: 10% 10% 10% 10%;
+  margin: 10% 10% 5% 34%;
+  padding-top: 2%;
+  position: relative;
+  width: 450px;
+  height: 450px;
+  border: 2px solid white;
+  box-shadow: 10px  rgba(0, 0, 0, 1.0);
+}
+.reg{
+  color: #76D7C4;
 }
 .email{
   border: 2px solid black;
@@ -45,15 +55,22 @@ body{
   font-size: 22px;
 }
 .but:hover{
-  background-color: black;
-  color: white;
+  background-color: #FCF3CF;
+  color: black;
 }
 .Login{
   text-align: center;
-  margin-top: 10%;
+  margin: 10% 10% 10% 35%;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 4px solid #117A65;
+}
+.dont{
+  padding-top: 5%;
 }
 .Navbar{
-  background-color: white;
+  background-color: #873600;
   text-align: center;
   justify-content: space-between;
 }
@@ -61,12 +78,14 @@ body{
   text-decoration: none;
   font-style: bold;
   font-size: 25px;
-  color: black;
+  color: white;
   padding: 0% 22% 0% 25%;
 }
-.hpage{ 
+.hpage{
+   color: black; 
 }
 .ppage{
+
  }
 
 @media (prefers-reduced-motion: no-preference) {

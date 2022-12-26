@@ -22,7 +22,7 @@ class Register extends React.Component{
 	render(){
 		return(
 			<div class="Register">
-			<h1>Registration</h1>
+			    <h1 class="reg">Registration</h1>
 				<p><input 
 				   name="email" onChange={this.handleChange} 
 				   placeholder="enter emailornumber" class="email"/></p>

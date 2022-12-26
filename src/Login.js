@@ -25,7 +25,9 @@ class Login extends React.Component{
 			 placeholder="enter password"
 			 name="password" class="password"/></p>
 			 <button onClick={this.handelClick} class="but">Login</button>
+			 <div class="dont">Don't have an account ?<a href="C:\Users\pbsc\Desktop\Social Media Application\project1\handicraftapp\src\Register.js">Signup</a></div>
 			</div>
+
 	    )
 	}
 }
